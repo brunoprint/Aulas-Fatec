@@ -1,9 +1,11 @@
 maior = None
-
-for i in range(7):
+i=1
+while i <=7 :
     num = float(input("Digite um número: "))
-
-    if maior is None or num > maior:
+    if maior is None:
         maior = num
-
-print("O maior númeor é: ", maior)
+    else:
+        if num > maior:
+            maior = num
+    i += 1
+print("O maior número é: ",maior)

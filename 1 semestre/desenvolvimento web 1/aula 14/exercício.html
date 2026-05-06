@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercício</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form">
+        <div class="input">
+        <p>Inscrição Hipercurso do Prof.Junior</p>
+        <label for="name">Nome completo: </label><br>
+        <input type="text">
+        </div>
+
+        <div class="input">
+        <label for="text">E-mail: </label><br>
+        <input type="text">
+        </div>
+
+        <div class="input">
+        <label for="escolaridade">Escolaridade:</label><br>
+        <input type="text">
+        </div>
+
+        <div class="input">
+        <label for="escolaridade">Nível de Escolaridade:</label><br>
+        <select name="escolaridade">
+            <option value="em">Ensino Médio</option>
+            <option value="nt">Nivel Técnico</option>
+            <option value="ns">Nível Superior</option>
+        </select>
+        </div>
+    
+        <div class="input">
+        <label for="periodo">Período do Estudo Preferido: </label><br>
+        <input type="radio" name="periodo" id="mn" > Manhã
+        <input type="radio" name="periodo" id="tr"> Tarde
+        <input type="radio" name="periodo" id="nt"> Noite <br>
+        </div>
+
+        <div class="input">
+        <label for="curso">Curso Desejado: </label><br>
+        <input type="checkbox" name="1" id="py">Python
+        <input type="checkbox" name="2" id="ht">HTML e CSS
+        <input type="checkbox" name="3" id="ph">PHP e MySQL
+        <input type="checkbox" name="4" id="gh">GitHub <br>
+        </div>
+
+        <div class="input">
+        <label for="text">Por que deseja fazer o curso?</label><br>
+        <textarea name="motivo" cols="58" rows="7"></textarea><br>
+        </div>
+
+        <fieldset>
+            <div class="input">
+                <legend>Criação de Login: </legend><br>
+                <label for="usuario">Usuário: </label><br>
+                <input type="text" name="usuario" size="10">
+            </div>
+            <div class="input">
+                <label for="password">Senha: </label><br>
+                <input type="password" name="senha" size="10">
+            </div>
+        </fieldset>
+
+        <div class="input">
+        <input type="submit" value="Fazer Inscrição">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
